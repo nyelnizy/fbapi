@@ -1,0 +1,1 @@
+php artisan crud:generate --all=Country,Region,City,District,Address,Contact,FinancialDetail,Classification,Company,User,MembershipSize,JoinReason,Organization,ContactPerson,Treasurer,Member,Currency,Customization,CompanyCurrency,Numbering,Balance,Beneficiary --graphql

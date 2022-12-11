@@ -1,0 +1,112 @@
+[
+    {
+        "name": "id",
+        "dbType": "increments",
+        "validations": "",
+        "searchable": false,
+        "fillable": false,
+        "primary": true
+    },
+    {
+        "name": "registered_by",
+        "dbType": "integer",
+        "validations": "required"
+    },
+    {
+        "name": "organization_id",
+        "dbType": "integer",
+        "validations": "required"
+    },
+    {
+        "name": "member_id",
+        "dbType": "string",
+        "validations": "required|unique:members,member_id"
+    },
+    {
+        "name": "first_name",
+        "dbType": "string",
+        "validations": "required"
+    },
+    {
+        "name": "middle_name",
+        "dbType": "string",
+        "validations": "nullable"
+    },
+    {
+        "name": "last_name",
+        "dbType": "string",
+        "validations": "required"
+    },
+    {
+        "name": "gender",
+        "dbType": "string",
+        "validations": "required"
+    },
+    {
+        "name": "dob",
+        "dbType": "date",
+        "validations": "required|date"
+    },
+    {
+        "name": "occupation",
+        "dbType": "string",
+        "validations": "required"
+    },
+    {
+        "name": "educational_level",
+        "dbType": "string",
+        "validations": "required"
+    },
+    {
+        "name": "date_joined",
+        "dbType": "timestamp",
+        "validations": "required"
+    },
+    {
+        "name": "photo",
+        "dbType": "string",
+        "validations": "nullable|file|mimes:jpg,jpeg,png"
+    },
+    {
+        "name": "marital_status",
+        "dbType": "string",
+        "validations": "required"
+    },
+    {
+        "name": "number_of_dependencies",
+        "dbType": "integer",
+        "validations": "required"
+    },
+    {
+        "name": "password",
+        "dbType": "string",
+        "validations": "required"
+    },
+    {
+        "name": "status",
+        "dbType": "boolean",
+        "validations": "required"
+    },
+    {
+        "name": "created_at",
+        "dbType": "timestamp",
+        "htmlType": "",
+        "validations": "",
+        "searchable": false,
+        "fillable": false,
+        "primary": false,
+        "inForm": false,
+        "inIndex": false
+    },
+    {
+        "name": "updated_at",
+        "dbType": "timestamp",
+        "htmlType": "",
+        "validations": "",
+        "searchable": false,
+        "fillable": false,
+        "primary": false,
+        "inForm": false,
+        "inIndex": false
+    }
+]

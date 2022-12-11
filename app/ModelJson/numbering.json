@@ -1,0 +1,52 @@
+[
+    {
+        "name": "id",
+        "dbType": "increments",
+        "validations": "",
+        "searchable": false,
+        "fillable": false,
+        "primary": true
+    },
+    {
+        "name": "company_id",
+        "dbType": "integer",
+        "validations": "required"
+    },
+    {
+        "name": "type",
+        "dbType": "string",
+        "validations": "required"
+    },
+    {
+        "name": "prefix",
+        "dbType": "string",
+        "validations": "nullable"
+    },
+    {
+        "name": "length",
+        "dbType": "integer",
+        "validations": "required"
+    },
+    {
+        "name": "created_at",
+        "dbType": "timestamp",
+        "htmlType": "",
+        "validations": "",
+        "searchable": false,
+        "fillable": false,
+        "primary": false,
+        "inForm": false,
+        "inIndex": false
+    },
+    {
+        "name": "updated_at",
+        "dbType": "timestamp",
+        "htmlType": "",
+        "validations": "",
+        "searchable": false,
+        "fillable": false,
+        "primary": false,
+        "inForm": false,
+        "inIndex": false
+    }
+]

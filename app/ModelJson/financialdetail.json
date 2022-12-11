@@ -1,0 +1,72 @@
+[
+    {
+        "name": "id",
+        "dbType": "increments",
+        "validations": "",
+        "searchable": false,
+        "fillable": false,
+        "primary": true
+    },
+    {
+        "name": "bank_account_number",
+        "dbType": "string",
+        "validations": "nullable"
+    },
+    {
+        "name": "branch_name",
+        "dbType": "string",
+        "validations": "nullable"
+    },
+    {
+        "name": "bank_account_name",
+        "dbType": "string",
+        "validations": "nullable"
+    },
+    {
+        "name": "momo_number",
+        "dbType": "string",
+        "validations": "nullable"
+    },
+    {
+        "name": "momo_account_type",
+        "dbType": "string",
+        "validations": "nullable"
+    },
+    {
+        "name": "momo_account_name",
+        "dbType": "string",
+        "validations": "nullable"
+    },
+    {
+        "name": "owner",
+        "dbType": "integer",
+        "validations": "required"
+    },
+    {
+        "name": "owner_type",
+        "dbType": "string",
+        "validations": "required"
+    },
+    {
+        "name": "created_at",
+        "dbType": "timestamp",
+        "htmlType": "",
+        "validations": "",
+        "searchable": false,
+        "fillable": false,
+        "primary": false,
+        "inForm": false,
+        "inIndex": false
+    },
+    {
+        "name": "updated_at",
+        "dbType": "timestamp",
+        "htmlType": "",
+        "validations": "",
+        "searchable": false,
+        "fillable": false,
+        "primary": false,
+        "inForm": false,
+        "inIndex": false
+    }
+]

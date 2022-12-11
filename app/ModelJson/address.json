@@ -1,0 +1,92 @@
+[
+    {
+        "name": "id",
+        "dbType": "increments",
+        "validations": "",
+        "searchable": false,
+        "fillable": false,
+        "primary": true
+    },
+    {
+        "name": "country_id",
+        "dbType": "integer",
+        "validations": "required"
+    },
+    {
+        "name": "region_id",
+        "dbType": "integer",
+        "validations": "required"
+    },
+    {
+        "name": "city_id",
+        "dbType": "integer",
+        "validations": "required"
+    },
+    {
+        "name": "district_id",
+        "dbType": "integer",
+        "validations": "required"
+    },
+    {
+        "name": "town",
+        "dbType": "string",
+        "validations": "nullable"
+    },
+    {
+        "name": "community",
+        "dbType": "string",
+        "validations": "nullable"
+    },
+    {
+        "name": "street",
+        "dbType": "string",
+        "validations": "nullable"
+    },
+    {
+        "name": "house_number",
+        "dbType": "string",
+        "validations": "nullable"
+    },
+    {
+        "name": "postal_code",
+        "dbType": "string",
+        "validations": "nullable"
+    },
+    {
+        "name": "is_primary",
+        "dbType": "boolean",
+        "validations": "nullable"
+    },
+    {
+        "name": "owner",
+        "dbType": "integer",
+        "validations": "required"
+    },
+    {
+        "name": "owner_type",
+        "dbType": "string",
+        "validations": "required"
+    },
+    {
+        "name": "created_at",
+        "dbType": "timestamp",
+        "htmlType": "",
+        "validations": "",
+        "searchable": false,
+        "fillable": false,
+        "primary": false,
+        "inForm": false,
+        "inIndex": false
+    },
+    {
+        "name": "updated_at",
+        "dbType": "timestamp",
+        "htmlType": "",
+        "validations": "",
+        "searchable": false,
+        "fillable": false,
+        "primary": false,
+        "inForm": false,
+        "inIndex": false
+    }
+]

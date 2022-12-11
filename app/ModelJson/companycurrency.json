@@ -1,0 +1,52 @@
+[
+    {
+        "name": "id",
+        "dbType": "increments",
+        "validations": "",
+        "searchable": false,
+        "fillable": false,
+        "primary": true
+    },
+    {
+        "name": "company_id",
+        "dbType": "integer",
+        "validations": "required"
+    },
+    {
+        "name": "current_currency",
+        "dbType": "integer",
+        "validations": "required"
+    },
+    {
+        "name": "conversion_currency",
+        "dbType": "integer",
+        "validations": "required"
+    },
+    {
+        "name": "current_rate",
+        "dbType": "double",
+        "validations": "nullable"
+    },
+    {
+        "name": "created_at",
+        "dbType": "timestamp",
+        "htmlType": "",
+        "validations": "",
+        "searchable": false,
+        "fillable": false,
+        "primary": false,
+        "inForm": false,
+        "inIndex": false
+    },
+    {
+        "name": "updated_at",
+        "dbType": "timestamp",
+        "htmlType": "",
+        "validations": "",
+        "searchable": false,
+        "fillable": false,
+        "primary": false,
+        "inForm": false,
+        "inIndex": false
+    }
+]

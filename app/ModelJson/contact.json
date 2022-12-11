@@ -1,0 +1,82 @@
+[
+    {
+        "name": "id",
+        "dbType": "increments",
+        "validations": "",
+        "searchable": false,
+        "fillable": false,
+        "primary": true
+    },
+    {
+        "name": "owner",
+        "dbType": "integer",
+        "validations": "required"
+    },
+    {
+        "name": "owner_type",
+        "dbType": "string",
+        "validations": "required"
+    },
+    {
+        "name": "phone",
+        "dbType": "string",
+        "validations": "required|min:6|max:20|unique:contacts,phone"
+    },
+    {
+        "name": "secondary_phone",
+        "dbType": "string",
+        "validations": "nullable|min:6|max:20|unique:contacts,secondary_phone"
+    },
+    {
+        "name": "email",
+        "dbType": "string",
+        "validations": "nullable|email|unique:contacts,email"
+    },
+    {
+        "name": "website",
+        "dbType": "string",
+        "validations": "nullable|url"
+    },
+    {
+        "name": "facebook",
+        "dbType": "string",
+        "validations": "nullable|url"
+    },
+    {
+        "name": "twitter",
+        "dbType": "string",
+        "validations": "nullable|url"
+    },
+    {
+        "name": "linkedin",
+        "dbType": "string",
+        "validations": "nullable|url"
+    },
+    {
+        "name": "box_number",
+        "dbType": "string",
+        "validations": "nullable"
+    },
+    {
+        "name": "created_at",
+        "dbType": "timestamp",
+        "htmlType": "",
+        "validations": "",
+        "searchable": false,
+        "fillable": false,
+        "primary": false,
+        "inForm": false,
+        "inIndex": false
+    },
+    {
+        "name": "updated_at",
+        "dbType": "timestamp",
+        "htmlType": "",
+        "validations": "",
+        "searchable": false,
+        "fillable": false,
+        "primary": false,
+        "inForm": false,
+        "inIndex": false
+    }
+]

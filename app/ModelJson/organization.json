@@ -1,0 +1,77 @@
+[
+    {
+        "name": "id",
+        "dbType": "increments",
+        "validations": "",
+        "searchable": false,
+        "fillable": false,
+        "primary": true
+    },
+    {
+        "name": "organization_id",
+        "dbType": "string",
+        "validations": "required"
+    },
+    {
+        "name": "registered_by",
+        "dbType": "integer",
+        "validations": "required"
+    },
+    {
+        "name": "membership_size_id",
+        "dbType": "integer",
+        "validations": "required"
+    },
+    {
+        "name": "name",
+        "dbType": "string",
+        "validations": "required|unique:organizations,name"
+    },
+    {
+        "name": "biography",
+        "dbType": "string",
+        "validations": "nullable"
+    },
+    {
+        "name": "date_established",
+        "dbType": "timestamp",
+        "validations": "required|date"
+    },
+    {
+        "name": "date_joined",
+        "dbType": "timestamp",
+        "validations": "required|date"
+    },
+    {
+        "name": "join_reason_id",
+        "dbType": "integer",
+        "validations": "required"
+    },
+    {
+        "name": "logo",
+        "dbType": "string",
+        "validations": "nullable|file|mimes:jpg,png,jpeg"
+    },
+    {
+        "name": "created_at",
+        "dbType": "timestamp",
+        "htmlType": "",
+        "validations": "",
+        "searchable": false,
+        "fillable": false,
+        "primary": false,
+        "inForm": false,
+        "inIndex": false
+    },
+    {
+        "name": "updated_at",
+        "dbType": "timestamp",
+        "htmlType": "",
+        "validations": "",
+        "searchable": false,
+        "fillable": false,
+        "primary": false,
+        "inForm": false,
+        "inIndex": false
+    }
+]
